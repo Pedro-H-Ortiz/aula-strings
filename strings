@@ -1,0 +1,51 @@
+// this is a js file
+// 
+
+/*
+
+1- ..
+
+2- SUBA NUM ÔNIBUS EM MARROCOS 27
+
+*/ 
+/*let nome; 
+let email;
+
+
+
+nome = prompt ("qual seu nome?"); 
+email = prompt ("qual seu email?");
+
+console.log ("O e-mail", email, "foi cadastrado com sucesso. Seja bem vindo", nome);
+
+const listaDecompras = [ "maça", "batata frita", "biscoito", "pastel", "laranja" ]
+
+let comidas = listaDecompras;
+
+console.log (listaDecompras);
+
+console.log("essas são minhas comidas preferidas");
+console.log (comidas[0]);
+console.log (comidas[1]);
+console.log (comidas[2]);
+console.log (comidas[3]);
+console.log (comidas[4]);
+
+
+comidas[1]=prompt ("qual sua comida favorita?");
+
+console.log(comidas);
+*/
+
+const tarefas = []
+tarefas.push(prompt ("qual a primeira tarefa que voce faz em casa?"));
+tarefas.push(prompt ("qual a segunda tarefa que voce faz em casa?"));
+tarefas.push(prompt ("qual a terceira tarefa que voce faz em casa?"));
+
+console.log("0 - ", tarefas[0]);
+console.log("1 - ", tarefas[1]);
+console.log("2 - ", tarefas[2]);
+let completo =  Number(prompt ("qual a tarefa completa?"));
+tarefas.splice(completo, 1);
+
+console.log(tarefas);
